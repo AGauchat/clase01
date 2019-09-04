@@ -22,7 +22,7 @@ def decimal_hexa(number):
         for i in range(i, number-1):
             resto = int(number % 16)
             number = int(number / 16)
-            if resto == 10:
+            if resto == 10: 
                 hexa.insert(i, 'A')
             if resto == 11:
                 hexa.insert(i, 'B')

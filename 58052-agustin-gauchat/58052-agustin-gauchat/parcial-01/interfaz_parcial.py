@@ -4,6 +4,6 @@ def interfaz():
 
     num = input('Ingrese un numero: ')
     
-    print('Su numero es: ' + dec_o_carac(num))
+    return print('Su numero es: ', dec_o_carac(num))
 
-    
+interfaz()
